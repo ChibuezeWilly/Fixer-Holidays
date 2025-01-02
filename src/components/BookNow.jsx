@@ -6,7 +6,7 @@ const BookNow = ({newTraveler}) => {
 	const [email, setEmail] = useState("");
 	const [phone, setPhone] = useState("");
 	const [address, setAddress] = useState("");
-	const [travelers, setTravelers] = useState("0");
+	const [travelers, setTravelers] = useState("1");
 
 	const navigate = useNavigate();
 	const toCheckout = () => {

@@ -42,7 +42,7 @@ const App = () => {
 				<Route path="/about" element={<AboutPage isHome={false} />} />
 				<Route path="/packages" element={<PackagesPage />} />
 				<Route
-					path="/packages/:id"
+					path="/package/:id"
 					element={<Package />}
 					loader={holidayLoader}
 				/>

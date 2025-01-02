@@ -102,7 +102,7 @@ const Packages = ({ isHome = true }) => {
 						<div className="flex flex-row justify-center items-center mt-5">
 							<Link
 								className="text-sm w-24 bg-green-700 text-white h-8 rounded-s-md text-center"
-								to={`/packages/${holiday.id}`} style={{paddingTop: '5px'}}>
+								to={`/package/${holiday.id}`} style={{paddingTop: '5px'}}>
 								Read More
 							</Link>
 							<button
