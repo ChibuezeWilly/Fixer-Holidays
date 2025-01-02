@@ -54,8 +54,8 @@ const Paypal = () => {
 
 	return (
 		<>
-			<div className="pt-32" style={{height: '400px'}}>
-				<div className="flex justify-center items-center mx-auto">
+			<div className="pt-32" style={{height: '80vh'}}>
+				<div className="flex justify-center items-center mx-auto relative">
 					<div className="shadow-[0_0_20px_rgba(0,0,0,0.2)] h-64 w-72 px-10">
 						<h1
 							className="mb-5 text-2xl font-bold text-center mt-5"
@@ -65,7 +65,7 @@ const Paypal = () => {
 						<div id="paypal-button-container" className="mt-10"></div>
 					</div>
 				</div>
-				<div className="mx-auto h-10 w-52 mt-10 border-red-500 border-2 rounded-full">
+				<div className="mx-auto h-10 w-52 mt-10 border-red-500 border-2 rounded-full mb-20">
 					<h1 className="flex justify-evenly items-center" onClick={toHolidays}>
 						<span className="text-lg font-bold mt-1">Cancel Trip</span>
 						<FaTimes className="text-xl mt-1" />

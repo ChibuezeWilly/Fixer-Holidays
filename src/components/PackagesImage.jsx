@@ -13,12 +13,6 @@ const PackagesImage = () => {
 				style={{ fontFamily: "Heebo" }}>
 				Affordable luxury with exclusive perks
 			</p>
-
-			<div className="flex md:justify-start justify-center mx-auto md:ml-20">
-				<button className="h-10 mt-4 w-32 bg-teal-600 rounded-md text-white">
-					Explore & Book
-				</button>
-			</div>
 		</div>
 	);
 };

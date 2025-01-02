@@ -17,7 +17,7 @@ const Travel = () => {
 				</h1>
 				<div className="flex md:justify-end mr-10">
 					<button className="bg-green-700 text-white py-3 px-10 rounded-md text-base mt-3 md:mt-1" onClick={toHolidays}>
-						Book Now
+						Holidays
 					</button>
 				</div>
 			</div>

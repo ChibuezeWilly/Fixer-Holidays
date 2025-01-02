@@ -107,12 +107,6 @@ const Packages = ({ isHome = true }) => {
 								style={{ paddingTop: "5px" }}>
 								Read More
 							</Link>
-							{/* <Link
-								className="text-sm w-24 bg-green-700 text-white h-8 rounded-s-md text-center"
-								to={`/package/${holiday.id}`}
-								style={{ paddingTop: "5px" }}>
-								Read More
-							</Link> */}
 							<button
 								className="text-sm w-24 bg-green-700 text-white h-8 rounded-e-md ml-3"
 								onClick={toBook}>

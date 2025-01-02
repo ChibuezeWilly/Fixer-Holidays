@@ -1,5 +1,10 @@
 import React from "react";
-import { useParams, useLoaderData, NavLink } from "react-router-dom";
+import {
+	useParams,
+	useLoaderData,
+	NavLink,
+	useNavigate,
+} from "react-router-dom";
 import {
 	FaStar,
 	FaUserAlt,
@@ -14,6 +19,8 @@ import {
 } from "react-icons/fa";
 
 const Package = () => {
+	const navigate = useNavigate();
+	const toHolidays = () => navigate("/book");
 	const { id } = useParams();
 	const holiday = useLoaderData();
 	return (
@@ -117,6 +124,13 @@ const Package = () => {
 									<span className="ml-3 text-base">Local cuisine tasting</span>
 								</p>
 							</div>
+						</div>
+						<div className="flex justify-center items-center">
+							<button
+								className="bg-green-700 text-white py-3 px-10 rounded-md text-base mt-7 md:mt-1"
+								onClick={toHolidays}>
+								Book Now
+							</button>
 						</div>
 					</div>
 				</div>
