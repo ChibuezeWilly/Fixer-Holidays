@@ -16,7 +16,7 @@ const Ourguides = () => {
 				data-aos-once="true">
 				{/* first one */}
 				<div className="w-64 h-96 shadow-[0_0_20px_rgba(0,0,0,0.2)]">
-					<img src="/src/assets/images/team-1.jpg" alt="team" />
+					<img src="/assets/images/team-1.jpg" alt="team" />
 					<div className="flex flex-row -mt-5">
 						<div className="flex flex-row mx-auto items-center space-x-5">
 							<div className="h-9 w-9 rounded-full bg-gray-800 flex items-center justify-center">
@@ -46,7 +46,7 @@ const Ourguides = () => {
 				</div>
 				{/* second one */}
 				<div className="w-64 h-96 shadow-[0_0_20px_rgba(0,0,0,0.2)]">
-					<img src="/src/assets/images/team-2.jpg" alt="team" />
+					<img src="/assets/images/team-2.jpg" alt="team" />
 					<div className="flex flex-row -mt-5">
 						<div className="flex flex-row mx-auto items-center space-x-5">
 							<div className="h-9 w-9 rounded-full bg-gray-800 flex items-center justify-center">
@@ -76,7 +76,7 @@ const Ourguides = () => {
 				</div>
 				{/* third one */}
 				<div className="w-64 h-96 shadow-[0_0_20px_rgba(0,0,0,0.2)]">
-					<img src="/src/assets/images/team-3.jpg" alt="team" />
+					<img src="/assets/images/team-3.jpg" alt="team" />
 					<div className="flex flex-row -mt-5">
 						<div className="flex flex-row mx-auto items-center space-x-5">
 							<div className="h-9 w-9 rounded-full bg-gray-800 flex items-center justify-center">
@@ -106,7 +106,7 @@ const Ourguides = () => {
 				</div>
 				{/* fourth one */}
 				<div className="w-64 h-96 shadow-[0_0_20px_rgba(0,0,0,0.2)]">
-					<img src="/src/assets/images/team-4.jpg" alt="team" />
+					<img src="/assets/images/team-4.jpg" alt="team" />
 					<div className="flex flex-row -mt-5">
 						<div className="flex flex-row mx-auto items-center space-x-5">
 							<div className="h-9 w-9 rounded-full bg-gray-800 flex items-center justify-center">

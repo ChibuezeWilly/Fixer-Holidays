@@ -35,7 +35,7 @@ const ClientsSay = () => {
 					<div className="flex justify-center items-center mx-auto">
 						<div className="card w-72 h-96 rounded-md shadow-[0_0_20px_rgba(0,0,0,0.2)] p-5 bg-white mx-auto">
 							<img
-								src="/src/assets/images/testimonials5.jpeg"
+								src="/assets/images/testimonials5.jpeg"
 								alt="Fatima Al-Farsi"
 								className="h-24 w-24 object-cover rounded-full  mt-3 border-4 border-green-700 mx-auto "
 							/>
@@ -57,7 +57,7 @@ const ClientsSay = () => {
 					<div className="flex justify-center mx-auto">
 						<div className="card w-72 h-96 mx-3 rounded-md shadow-[0_0_20px_rgba(0,0,0,0.2)] p-5 bg-white ">
 							<img
-								src="/src/assets/images/testimonials6.jpeg"
+								src="/assets/images/testimonials6.jpeg"
 								alt="Emily Johnson"
 								className="h-24 w-24 object-cover rounded-full  mt-3 border-4 border-green-700 mx-auto"
 							/>
@@ -80,7 +80,7 @@ const ClientsSay = () => {
 					<div className="flex justify-center mx-auto">
 						<div className="card w-72 h-96 mx-3 rounded-md shadow-[0_0_20px_rgba(0,0,0,0.2)] p-5 bg-white">
 							<img
-								src="/src/assets/images/testmonials7.jpeg"
+								src="/assets/images/testmonials7.jpeg"
 								alt="Rajesh Gupta"
 								className="h-24 w-24 object-cover rounded-full  mt-3 border-4 border-green-700 mx-auto"
 							/>
@@ -102,7 +102,7 @@ const ClientsSay = () => {
 					<div className="flex justify-center mx-auto">
 						<div className="card w-72 h-96 mx-3 rounded-md shadow-[0_0_20px_rgba(0,0,0,0.2)] p-5 bg-white">
 							<img
-								src="/src/assets/images/testimonials8.jpeg"
+								src="/assets/images/testimonials8.jpeg"
 								alt="Hannah Kim"
 								className="h-24 w-24 object-cover rounded-full  mt-3 border-4 border-green-700 mx-auto"
 							/>
@@ -124,7 +124,7 @@ const ClientsSay = () => {
 					<div className="flex justify-center mx-auto">
 						<div className="card w-72 h-96 mx-3 rounded-md shadow-[0_0_20px_rgba(0,0,0,0.2)] p-5 bg-white">
 							<img
-								src="/src/assets/images/testimonials9.jpeg"
+								src="/assets/images/testimonials9.jpeg"
 								alt="Michael O'Connor"
 								className="h-24 w-24 object-cover rounded-full  mt-3 border-4 border-green-700 mx-auto"
 							/>
