@@ -1,15 +1,18 @@
-import React from "react";
-import { useState, useEffect, Suspense } from "react";
-import FirstHomes from "./FirstHomes";
+import React, { useState, useEffect, Suspense } from "react";
 import Spinner from "../../src/components/Spinner";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { NavLink } from "react-router-dom";
+
+// Lazy load the FirstHomes component
+const FirstHomes = React.lazy(() => import("./FirstHomes"));
+
 const Home = () => {
 	const [homes, setHomes] = useState([]);
-	const limit = 10; // Set your desired limit
+	const [loading, setLoading] = useState(true);
 	const apiUrl = `https://fixer-api.onrender.com/api/homes?_limit=10`;
+
 	useEffect(() => {
 		const fetchHomes = async () => {
 			try {
@@ -18,6 +21,8 @@ const Home = () => {
 				setHomes(data);
 			} catch (error) {
 				console.error("Error fetching locations:", error);
+			} finally {
+				setLoading(false);
 			}
 		};
 
@@ -44,8 +49,9 @@ const Home = () => {
 			},
 		],
 	};
+
 	return (
-		<div className="mt-20 md:mx-16 ">
+		<div className="mt-20 md:mx-16">
 			<div className="flex flex-row items-center">
 				<h1
 					className="text-gray-800 font-bold ml-4 text-2xl mb-3"
@@ -53,20 +59,25 @@ const Home = () => {
 					Home guests love
 				</h1>
 				<NavLink
-					className="text-blue-800 text-sm md:text-base -mt-2  ml-auto px-4 underline"
+					className="text-blue-800 text-sm md:text-base -mt-2 ml-auto px-4 underline"
 					to={"/homes"}>
 					View More Homes
 				</NavLink>
 			</div>
-			<Suspense fallback={<Spinner />}>
-				<div className="mx-auto">
-					<Slider {...sliderSettings}>
-						{homes.map((home) => (
-							<FirstHomes home={home} key={home.id} />
-						))}
-					</Slider>
-				</div>
-			</Suspense>
+
+			{loading ? (
+				<Spinner />
+			) : (
+				<Suspense fallback={<Spinner />}>
+					<div className="mx-auto">
+						<Slider {...sliderSettings}>
+							{homes.map((home) => (
+								<FirstHomes home={home} key={home.id} />
+							))}
+						</Slider>
+					</div>
+				</Suspense>
+			)}
 		</div>
 	);
 };
