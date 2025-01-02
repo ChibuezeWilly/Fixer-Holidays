@@ -3,7 +3,7 @@ import Aos from "aos";
 import { useNavigate } from "react-router-dom";
 import "aos/dist/aos.css";
 import { FaArrowRight } from "react-icons/fa";
-import about from "../../assets/images/about.jpg";
+import about from "/assets/images/about.jpg";
 const About = ({ isHome = true }) => {
 	const navigate = useNavigate();
 	const toAbout = () => {

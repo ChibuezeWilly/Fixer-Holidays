@@ -1,13 +1,14 @@
 import React from "react";
-import choose8 from "../../assets/images/beach.jpeg";
-import choose7 from "../../assets/images/cultural.jpeg";
-import choose3 from "../../assets/images/adventure.jpeg";
-import choose4 from "../../assets/images2/luxury.jpeg";
-import choose5 from "../../assets/images/romantic.jpeg";
-import choose6 from "../../assets/images/historical.jpeg";
-import choose9 from "../../assets/images/family.jpeg";
-import choose2 from "../../assets/images/skii.jpeg";
-import choose1 from "../../assets/images/wildlife.jpeg";
+import choose8 from "/assets/images/beach.jpeg";
+import choose7 from "/assets/images/cultural.jpeg";
+import choose3 from "/assets/images/adventure.jpeg";
+import choose4 from "/assets/images2/luxury.jpeg";
+import choose5 from "/assets/images/romantic.jpeg";
+import choose6 from "/assets/images/historical.jpeg";
+import choose9 from "/assets/images/family.jpeg";
+import choose2 from "/assets/images/skii.jpeg";
+import choose1 from "/assets/images/wildlife.jpeg";
+
 
 import { NavLink } from "react-router-dom";
 

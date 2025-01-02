@@ -6,7 +6,7 @@ const HeroText = () => {
 	const toHolidays = navigate('/holidays')
 	
 	return (
-		<div className="mt-36 md:mt-48 md:ml-40 flex flex-col justify-center items-center md:justify-start md:items-start md:w-96 overflow-x-hidden">
+		<div className="mt-40 md:mt-48 md:ml-40 flex flex-col justify-center items-center md:justify-start md:items-start md:w-96 overflow-x-hidden">
 			<p className="text-2xl md:text-5xl text-white hero overflow-hidden inline-block">
 				<ReactTyped strings={["Let's plan your next Holiday"]} typeSpeed={80} />
 			</p>

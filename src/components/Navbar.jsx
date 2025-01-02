@@ -1,10 +1,9 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import Logo from "../assets/images/LOGO.png";
+import Logo from "/assets/images/LOGO.png";
 import { FaBars } from "react-icons/fa";
 import MobileNavbar from "./MobileNavbar";
 import { useEffect } from "react";
-// import GoogleSignIn from "./GoogleSignIn";
 
 const Navbar = () => {
 	const [openMobileNavbar, setOpenMobileNavbar] = useState(false);

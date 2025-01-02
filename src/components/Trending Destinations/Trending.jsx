@@ -46,12 +46,12 @@ const Trending = () => {
 	};
 
 	return (
-		<div className="mx-auto md:mx-16 mt-20">
+		<div className="mx-auto md:mx-10 mt-20">
 			<h1 className="trending text-4xl font-bold text-center text-gray-800 mb-8">
 				Trending Destinations
 			</h1>
 			<Suspense fallback={<Spinner />}>
-				<Slider {...sliderSettings} className="px-4">
+				<Slider {...sliderSettings} className="px-2">
 					{locations.map((location) => (
 						<TrendingImages location={location} key={location.id} />
 					))}

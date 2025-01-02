@@ -1,10 +1,10 @@
 import React from "react";
-import choose8 from "../../assets/images/choose8.jpeg";
-import choose7 from "../../assets/images/choose7.jpeg";
-import choose3 from "../../assets/images/choose3.jpeg";
-import choose4 from "../../assets/images/choose4.jpeg";
-import choose5 from "../../assets/images/choose5.jpeg";
-import choose6 from "../../assets/images/choose6.jpeg";
+import choose8 from "/assets/images/choose8.jpeg";
+import choose7 from "/assets/images/choose7.jpeg";
+import choose3 from "/assets/images/choose3.jpeg";
+import choose4 from "/assets/images/choose4.jpeg";
+import choose5 from "/assets/images/choose5.jpeg";
+import choose6 from "/assets/images/choose6.jpeg";
 
 const Choose = () => {
 	return (
