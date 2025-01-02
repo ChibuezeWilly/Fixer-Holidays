@@ -1,0 +1,212 @@
+:root {
+    --bui_color_action_border: #006ce4;
+    --bui_color_foreground: #1a1a1a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
+
+.background-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/assets/images/mainHome10.jpg");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.hero {
+    font-family: "Heebo", sans-serif;
+}
+
+.experinece {
+    font-family: "Heebo";
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+.mobileNavbar {
+    top: 0; 
+    z-index: 1000;
+    left: 0;
+    height: 100vh;
+    width: 55%;
+    font-family: 'Heebo';
+}
+.navbar {
+    z-index: 10;
+}
+.calendar {
+    width: 90%;
+}
+.firstbooking input {
+    outline: none;
+    border: 1px solid rgb(222, 189, 4);
+    width: 90%;
+}
+.firstbooking input::placeholder {
+    color: black;
+}
+.buttonborder {
+    border: 1px solid black;
+}
+.age::placeholder {
+    color: black;
+}
+.age {
+    border-color: black;
+    border: 1px solid black;
+}
+.border1 {
+    color: var(--bui_color_action_border);
+}
+.dropdown {
+    z-index: 1000;
+}
+select {
+    border: 1px solid var(--bui_color_action_border);
+    margin-top: 10px;
+    z-index: 1000;
+    outline: none;
+
+}
+.text:hover {
+    background-color: var(--bui_color_action_border);
+    cursor: pointer;
+}
+.about {
+    font-family: 'Poppins';
+    width: 90%;
+    margin: auto;
+}
+.about1 {
+    font-family: 'Poppins';
+}
+
+.aboutimage {
+    width: 90%;
+    object-fit: cover;
+}
+
+.choose {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/src/assets/images/whychoose.jpg");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.aboutImage {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/src/assets/images/aboutImage.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.packages {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/src/assets/images/packagesImage2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.holidayImage {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/src/assets/images/holidaysImage.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.choose1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.first-list {
+    width: 100%;
+}
+.second-list {
+    width: 100%;
+}
+#services {
+    font-family: 'Heebo';
+}
+
+.services-card {
+    font-family: 'Heebo';
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.trending {
+    font-family: 'Heebo';
+}
+
+.packages {
+    font-family: 'Heebo';
+}
+
+.slick-dots li button:before {
+    font-size: 30px;
+    color: gray;
+    /* Change color */
+}
+
+@media (min-width: 756px) {
+    .background-image {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/assets/images/mainHome10.jpg");
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    .traveler {
+        margin-left: 750px
+    }
+
+    .about {
+        width: 50%;
+    }
+
+    .aboutimage {
+        width: 45%;
+        object-fit: cover;
+    }
+
+    .first-list {
+        width: 50%;
+    }
+
+    .second-list {
+        width: 50%;
+    }
+
+    .services-card {
+        width: 230px;
+    }
+}
+
+.company {
+    font-family: 'Heebo';
+}
+.book {
+    margin: auto;
+    height: 100vh;
+    width: 500px;
+}
