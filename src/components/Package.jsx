@@ -126,7 +126,7 @@ const Package = () => {
 };
 const holidayLoader = async ({ params }) => {
 	const res = await fetch(
-		`https://fixer-api.onrender.com/api/locations/${params.id}`
+		`"https://fixer-api.onrender.com/api/locations/${params.id}`
 	);
 	const data = await res.json();
 	return data;
