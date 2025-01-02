@@ -2,7 +2,7 @@ import { ReactTyped } from "react-typed";
 
 const HeroText = () => {
 	return (
-		<div className="md:ml-40 flex flex-col justify-center items-center md:justify-start md:items-start md:w-96 overflow-x-hidden" style={{marginTop: '15vh'}}>
+		<div className="md:ml-40 flex flex-col justify-center items-center md:justify-start md:items-start md:w-96 overflow-x-hidden" style={{marginTop: '40vh'}}>
 			<p className="text-2xl md:text-5xl text-white hero overflow-hidden inline-block">
 				<ReactTyped strings={["Let's plan your next Holiday"]} typeSpeed={80} />
 			</p>
