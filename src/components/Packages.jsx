@@ -32,7 +32,8 @@ const Packages = ({ isHome = true }) => {
 			</h1>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-evenly items-center">
 				{packages.map((holiday) => (
-					<div key={holiday.id}
+					<div
+						key={holiday.id}
 						className="w-80 rounded-md shadow-[0_0_20px_rgba(0,0,0,0.2)] mt-10 mb-10 mx-auto"
 						style={{ height: "400px" }}>
 						<img
@@ -102,9 +103,16 @@ const Packages = ({ isHome = true }) => {
 						<div className="flex flex-row justify-center items-center mt-5">
 							<Link
 								className="text-sm w-24 bg-green-700 text-white h-8 rounded-s-md text-center"
-								to={`/package/${holiday.id}`} style={{paddingTop: '5px'}}>
+								to={`/package/${holiday.id}`}
+								style={{ paddingTop: "5px" }}>
 								Read More
 							</Link>
+							{/* <Link
+								className="text-sm w-24 bg-green-700 text-white h-8 rounded-s-md text-center"
+								to={`/package/${holiday.id}`}
+								style={{ paddingTop: "5px" }}>
+								Read More
+							</Link> */}
 							<button
 								className="text-sm w-24 bg-green-700 text-white h-8 rounded-e-md ml-3"
 								onClick={toBook}>
