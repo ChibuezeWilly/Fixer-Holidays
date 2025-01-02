@@ -1,13 +1,14 @@
 import React from "react";
 import { FaStar, FaMapMarker } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const AdventureImage = ({ nature }) => {
+		const navigate = useNavigate()
+		const toBook = () => navigate('/book')
 	return (
 		<div className=" mx-5 md:mx-10">
 			<div className="flex mt-10 border-gray-200">
-				<div
-					className="flex flex-col lg:flex-row w-full justify-around items-center shadow-[0_0_20px_rgba(0,0,0,0.2) md:h-96"
-					>
+				<div className="flex flex-col lg:flex-row w-full justify-around items-center shadow-[0_0_20px_rgba(0,0,0,0.2) md:h-96">
 					<img
 						src={nature.image}
 						alt=""
@@ -83,7 +84,9 @@ const AdventureImage = ({ nature }) => {
 							</div>
 						</div>
 						<div className="flex justify-center items-center">
-							<button className="w-36 h-10 mt-5 bg-green-700 rounded-md mb-10 mx-auto text-white">
+							<button
+								className="w-36 h-10 mt-5 bg-green-700 rounded-md mb-10 mx-auto text-white"
+								onClick={toBook}>
 								Book Now
 							</button>
 						</div>
